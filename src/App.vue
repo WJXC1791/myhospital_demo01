@@ -1,6 +1,10 @@
 <template>
 <!--  <img src="./assets/logo.png">-->
   <div id="app">
+<!--    <div id="nav">-->
+<!--      <router-link to="/">Hello</router-link>-->
+<!--      <router-link to="/about">About</router-link>-->
+<!--    </div>-->
     <router-view/>
   </div>
 </template>
@@ -21,4 +25,7 @@
     margin-top: 20px;
     margin-left: 20px;
   }
+  /*#nav {*/
+  /*  padding: 30px;*/
+  /*}*/
 </style>
